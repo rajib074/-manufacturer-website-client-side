@@ -11,22 +11,25 @@ const Navbar = () => {
       </label>
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         
-        <li><a>home</a></li>
-        <li><a>parts</a></li>
-        <li><a>contrak us</a></li>
-        <li><a>dashbord</a></li>
-        <li><a>login</a></li>
+        <li><a>Home</a></li>
+        <li><a>Parts</a></li>
+        <li><a>Review</a></li>
+        <li><a>Dashbord</a></li>
+        <li><a>Log in</a></li>
+                <li><a>Log out</a></li>
+
       </ul>
     </div>
     <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
-    <li><a>home</a></li>
-        <li><a>parts</a></li>
-        <li><a>contrak us</a></li>
-        <li><a>dashbord</a></li>
-        <li><a>login</a></li>
+    <li><a>Home</a></li>
+        <li><a>Parts</a></li>
+        <li><a>Review</a></li>
+        <li><a>Dashbord</a></li>
+        <li><a>Log in</a></li>
+        <li><a>Log out</a></li>
     </ul>
   </div>
   <div class="navbar-end">

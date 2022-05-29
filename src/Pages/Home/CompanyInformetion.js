@@ -6,12 +6,12 @@ const CompanyInformetion = () => {
   <div class="container px-5 py-24 mx-auto flex flex-col">
     <div class="lg:w-4/6 mx-auto">
       <div class="rounded-lg h-64 overflow-hidden">
-        <img alt="content" class="object-cover object-center h-full w-full" src="https://i.ibb.co/c666v1T/banner6.jpg" />
+        <img alt="content" class="object-cover object-center h-full w-full" src="https://i.ibb.co/VYPrQwq/automotive-cell-company-acc.jpg" />
       </div>
       <div class="flex flex-col sm:flex-row mt-10">
         <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
           <div class="w-20 h-20  rounded-full inline-flex items-center justify-center bg-gray-800 text-gray-600">
-            <img className='rounded-full' src="https://i.ibb.co/tc8bZR0/139758119-happy-farmer-hold-box-healthy-lifestyle-crop-planting-at-fields-farmar-enjoy-spring-nature.webp" alt="" />
+            <img className='rounded-full' src="https://i.ibb.co/yXw6Gkr/Screenshot-2022-05-30-001046.jpg" alt="" />
           </div>
           <div class="flex flex-col items-center text-center justify-center">
             <h2 class="font-medium title-font mt-4 text-white text-lg">Phoebe Caulfield</h2>
