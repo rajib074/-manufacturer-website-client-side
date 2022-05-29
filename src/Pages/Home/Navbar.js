@@ -11,16 +11,18 @@ const Navbar = () => {
       </label>
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         
-        <li><a>Home</a></li>
-        <li><a>Parts</a></li>
-        <li><a>Review</a></li>
-        <li><a>Dashbord</a></li>
-        <li><a>Log in</a></li>
-                <li><a>Log out</a></li>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/parts">Parts</Link></li>
+      <li><Link to="/review">Review</Link></li>
+      <li><Link to="/dashbord">Dashbord</Link></li>
+      <li><Link to="/">Log in</Link></li>
+      
 
       </ul>
     </div>
-    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+    <a class="w-10 lg:mx-5">
+      <img src="https://image.shutterstock.com/image-vector/autoparts-gear-auto-piston-spark-260nw-1623130876.jpg" alt=""/>
+    </a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal p-0">
@@ -32,9 +34,7 @@ const Navbar = () => {
         <li><a>Log out</a></li>
     </ul>
   </div>
-  <div class="navbar-end">
-    <a class="btn">Get started</a>
-  </div>
+  
 </div>
   
         </div>

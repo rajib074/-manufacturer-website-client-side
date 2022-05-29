@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div class="hero min-h-screen" style={{ 
-        backgroundImage: `url("https://api.lorem.space/image/fashion?w=1000&h=800")` 
+        backgroundImage: `url("https://i.ibb.co/r58vQyf/1-Jpgb7b-Vi4ggrrx-YLb-H8bsg.jpg")` 
       }}>
   <div class="hero-overlay bg-opacity-60"></div>
   <div class="hero-content text-center text-neutral-content">
