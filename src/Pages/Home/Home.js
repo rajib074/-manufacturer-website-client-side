@@ -1,5 +1,4 @@
 import React from 'react';
-import Login from '../Login/Login';
 
 import Banner from './Banner';
 import CompanyInformetion from './CompanyInformetion';
@@ -9,7 +8,6 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <CompanyInformetion></CompanyInformetion>
-            <Login></Login>
             
            
         </div>
