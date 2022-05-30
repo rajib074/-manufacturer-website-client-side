@@ -12,7 +12,7 @@ const ProductDetails = () => {
     const [product, setProduct] = useState({});
     useEffect(() => {
         async function fetchData() {
-            const res = await fetch(`https://toolkitsnode.herokuapp.com/tools/${id}`);
+            const res = await fetch(`https://auto-partsnode.herokuapp.com/tools/${id}`);
             const data = await res.json();
             setProduct(data);
             setQuantity(data.minOrder);
@@ -41,7 +41,7 @@ const ProductDetails = () => {
                 const newProduct = { ...product, available: newAvailable };
                 setProduct(newProduct);
                 console.log(newOrder);
-                fetch('https://toolkitsnode.herokuapp.com/orders', {
+                fetch('https://auto-partsnode.herokuapp.com/orders', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json',
@@ -53,7 +53,7 @@ const ProductDetails = () => {
                     .then(data => {
                         if (data.success) {
                             toast(`Your order is set. Go to dashboard and check My order`)
-                            fetch(`https://toolkitsnode.herokuapp.com/tools/${id}`, {
+                            fetch(`https://auto-partsnode.herokuapp.com/tools/${id}`, {
                                 method: 'PUT',
                                 headers: {
                                     'content-type': 'application/json',

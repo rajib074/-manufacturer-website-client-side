@@ -1,7 +1,7 @@
 [
     {
         "name": "Broaching machine",
-        "img": "https://moryphea.sirv.com/assignment12/2.jpg",
+        "img": "https://i.ibb.co/HFv5PkF/cat10-p-2-300x300.jpg",
         "content": "The process by which the master plane gages were produced dates back to antiquity but was refined to an unprecedented degree in the Maudslay shop.",
         "minOrder": "20",
         "available": "100",
@@ -9,7 +9,7 @@
     },
     {
         "name": "Drill press",
-        "img": "https://moryphea.sirv.com/assignment12/3.jpg",
+        "img": "https://i.ibb.co/jgZd94q/cat2-p-2-300x300.jpg",
         "content": "The process by which the master plane gages were produced dates back to antiquity but was refined to an unprecedented degree in the Maudslay shop.",
         "minOrder": "20",
         "available": "50",
@@ -17,7 +17,7 @@
     },
     {
         "name": "Gear shaper",
-        "img": "https://moryphea.sirv.com/assignment12/4.jpg",
+        "img": "https://i.ibb.co/982Dd9Q/product-4-jpg.webp",
         "content": "The process by which the master plane gages were produced dates back to antiquity but was refined to an unprecedented degree in the Maudslay shop.",
         "minOrder": "50",
         "available": "100",
@@ -25,7 +25,7 @@
     },
     {
         "name": "Hobbing machine",
-        "img": "https://moryphea.sirv.com/assignment12/5.jpg",
+        "img": "https://i.ibb.co/FHPp0QT/p1-1-300x300.jpg",
         "content": "The process by which the master plane gages were produced dates back to antiquity but was refined to an unprecedented degree in the Maudslay shop.",
         "minOrder": "40",
         "available": "120",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Screw machines",
-        "img": "https://moryphea.sirv.com/assignment12/7.jpg",
+        "img": "https://i.ibb.co/DY59zdC/cat18-p-1-300x300.jpg",
         "content": "The process by which the master plane gages were produced dates back to antiquity but was refined to an unprecedented degree in the Maudslay shop.",
         "minOrder": "10",
         "available": "50",
@@ -49,7 +49,7 @@
     },
     {
         "name": "Milling machine",
-        "img": "https://moryphea.sirv.com/assignment12/8.webp",
+        "img": "https://i.ibb.co/X881X6g/p3-1-300x300.jpg",
         "content": "The process by which the master plane gages were produced dates back to antiquity but was refined to an unprecedented degree in the Maudslay shop.",
         "minOrder": "5",
         "available": "30",
@@ -57,7 +57,7 @@
     },
     {
         "name": "Stewart platform mills",
-        "img": "https://moryphea.sirv.com/assignment12/9.png",
+        "img": "https://i.ibb.co/X3CZx5f/p5-1-300x300.jpg",
         "content": "The process by which the master plane gages were produced dates back to antiquity but was refined to an unprecedented degree in the Maudslay shop.",
         "minOrder": "25",
         "available": "100",

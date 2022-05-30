@@ -6,7 +6,7 @@ const Review = () => {
 
     useEffect(() => {
         const getProducts = async () => {
-            const url = 'https://toolkitsnode.herokuapp.com/reviews';
+            const url = 'https://auto-partsnode.herokuapp.com/reviews';
             const { data } = await axios.get(url);
             setReviews(data);
         }

@@ -5,7 +5,7 @@ const DeleteConfirmModal = ({ deletingOrder, orders, setOrders }) => {
     const { _id, name } = deletingOrder;
     const handleDelete = (id) => {
         console.log('deleting', id);
-        fetch(`https://toolkitsnode.herokuapp.com/orders/${id}`, {
+        fetch(`https://auto-partsnode.herokuapp.com/orders/${id}`, {
             method: 'DELETE',
             headers: {
                 'content-type': 'application/json',

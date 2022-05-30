@@ -39,7 +39,7 @@ const AddAProduct = () => {
                     };
                     console.log(product);
                     //adding item to database
-                    fetch('https://toolkitsnode.herokuapp.com/tools', {
+                    fetch('https://auto-partsnode.herokuapp.com/tools', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
