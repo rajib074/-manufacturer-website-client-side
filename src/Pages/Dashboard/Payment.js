@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom';
 import { HashLoader } from 'react-spinners';
 import CheckoutForm from './CheckoutForm';
 
-const stripePromise = loadStripe('pk_test_51L4t2vJmcWu2aHZbrf8HsQiQZbB361U5jfG7z5mcd1VzEfebfUKV2sopfIQRyBu5mfdW1doHsFoWraNuMvG2wkOC00yOPvXXQm');
+const stripePromise = loadStripe('pk_test_51L56kEDDyy1WK3I7nYi2GZJYIMXeGtNTu2CF1UY97WEpV00KdUXZoSNP90iqvnR6WRRaUpGUOCUigi3CtIPWaduE00O5LX40yK');
 
 const Payment = () => {
     const { id } = useParams();

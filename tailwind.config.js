@@ -14,15 +14,23 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        azo: {
-          "primary": "#FFBA00",
-          "secondary": "#1d233a",
-          "accent": "#1d233a",
-          "neutral": "#c5f617",
+        vitac: {
+          "primary": "#570DF8",
+          
+          "secondary": "#F000B8",
+                   
+          "accent": "#37CDBE",
+                   
+          "neutral": "#3D4451",
+                   
           "base-100": "#FFFFFF",
-          "info": "#4a4f61",
+                   
+          "info": "#3ABFF8",
+                   
           "success": "#36D399",
+                   
           "warning": "#FBBD23",
+                   
           "error": "#F87272",
         },
       },
