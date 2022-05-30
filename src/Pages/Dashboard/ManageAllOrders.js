@@ -28,7 +28,7 @@ const ManageAllOrders = () => {
             .then(res => res.json())
             .then(data => {
                 if (data.success) {
-                    toast.success('Successfully shipped the order');
+                    toast.success('Successfully sh ipped the order');
                 }
             })
     }
