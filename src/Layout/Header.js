@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../logo.png';
 import { Link } from 'react-router-dom';
 import { FaChevronRight  } from 'react-icons/fa';
 import { useAuthState } from 'react-firebase-hooks/auth';
@@ -35,7 +34,7 @@ const Header = () => {
                                 </ul>
                             </div>
                             <Link to='/'>
-                                <img src={logo} alt="" />
+                                <img src="https://i.ibb.co/PjWMDqz/Logo.png" alt="" />
                             </Link>
                         </div>
                         <div className="navbar-center hidden lg:flex">
